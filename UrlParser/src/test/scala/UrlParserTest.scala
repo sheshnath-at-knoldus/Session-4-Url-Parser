@@ -11,7 +11,6 @@ class UrlParserTest extends AnyFunSuite{
     val result = Some("https","www.mywebsite.com","home/home2")
     val expectedValue =Extracter.unapply(urlParser)
     assert(result===expectedValue)
-
   }
 
 }
