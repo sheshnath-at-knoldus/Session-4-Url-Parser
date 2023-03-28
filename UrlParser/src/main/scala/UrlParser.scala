@@ -2,7 +2,7 @@ package com.knoldus
 
 class Extracter(val url: String)
 
-//companion Object
+//companion Object for Class Extractor
 object Extracter {
 
   //apply method
